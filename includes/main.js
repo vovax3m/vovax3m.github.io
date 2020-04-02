@@ -1,4 +1,4 @@
-function(){
-	var now = new Date();
+$(function() {
+    var now = new Date();
 	$( "#time" ).html(now);
-}
+});
